@@ -1,0 +1,242 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --transition: .75s;
+    --branco: #fff;
+    --preto: #000;
+    --cinza: #808080
+}
+
+html {
+    font-size: 62,5%;
+}
+
+body {
+    font-size: 1.2rem;
+    background-image: url(../images/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 900;
+    transition: var(--transition);
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 250px;
+    height: 70px;
+    margin-top: 30px;
+    display: flex;
+}
+
+.superior {
+    margin-top: 30px;
+    width: 420px;
+    padding: 15px 15px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    border-radius: 10px 10px 0px 0px;
+}
+
+h2 {
+    font-size: 25px;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 800px;
+}
+
+#subtitulo {
+    font-size: 15px;
+    text-align: center;
+    width: 80%;
+    margin: 0px auto;
+    padding: 5px 20px 0px 0px;
+}
+
+.cadastro {
+    width: 420px;
+    padding: 15px 15px;
+    background-color: #fff;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.facebook {
+    width: 80%;
+    background-color: #0051ff;
+    border: 1px solid #ddd;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 7.5px;
+    text-align: center;
+    margin: 5px auto;
+    font-weight: 700;
+}
+
+#facebook {
+    color: #fff;
+}
+
+.google {
+    width: 80%;
+    background-color: #ff0000;
+    border: 1px solid #ddd;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 7.5px;
+    text-align: center;
+    margin: 5px auto;
+    font-weight: 900;
+}
+
+#google {
+    color: #fff;
+    width: 100%;
+}
+
+#ou {
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.email{
+    width: 80%;
+    border: 1px solid #ddd;
+    color: var(--cinza);
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 7.5px;
+    margin: 5px auto;
+}
+
+.telefone {
+    width: 80%;
+    border: 1px solid #ddd;
+    color: var(--cinza);
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 7.5px;
+    margin: 5px auto;
+}
+
+.dois_fatores, .quadrado {
+    display: flex;
+}
+
+.dois_fatores {
+    width: 80%;
+    color: var(--cinza);
+    font-size: 10px;
+    padding: 10px;
+    margin: 5px -70px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.quadrado {
+    width: 12px;
+    height: 12px;
+    border: 1px solid;
+    border-color: #ddd;
+    margin: 0px 5px 0px 0px;
+}
+
+.nome {
+    width: 80%;
+    border: 1px solid #ddd;
+    color: var(--cinza);
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 7.5px;
+    margin: 5px auto;
+}
+
+.senha {
+    width: 80%;
+    border: 1px solid #ddd;
+    color: var(--cinza);
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 7.5px;
+    margin: 5px auto;
+}
+
+.confirmar_senha {
+    width: 80%;
+    border: 1px solid #ddd;
+    color: var(--cinza);
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 7.5px;
+    margin: 5px auto;
+}
+
+#termos {
+    text-align: center;
+    width: 70%;
+    margin: 10px auto 20px auto;
+    font-size: 12px;
+}
+
+#termos_politicas:hover {
+    text-decoration: underline;
+    transition: var(--transition);
+}
+
+.criar_conta {
+    width: 40%;
+    border: 1px solid #ddd;
+    color: var(--preto);
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 7.5px;
+    text-align: center;
+    margin: 10px auto;
+    font-weight: 900;
+}
+
+.criar_conta:hover {
+    background-color: rgb(255, 254, 170);
+    color: #000000;
+    transition: var(--transition);
+}
+
+a {
+    color: #000;
+    height: 900;
+    font-weight: 900;
+}
+
+.entrar {
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+    font-size: 15px;
+}
+
+.conecte-se {
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+    font-size: 15px;
+}
+
+#conecte-se:hover {
+    text-decoration: underline;
+    transition: var(--transition);
+}
